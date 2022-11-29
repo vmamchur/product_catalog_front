@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  background-color: #0f1121;
+}
+
+.header {
+  height: 48px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  border-bottom: 1px solid #3b3e4a;
+
+  &__menu {
+    height: 100%;;
+    
+    display: flex;
+
+    border-left: 1px solid #3b3e4a;
+  }
+}
+
+.logo {
+  width: 64px;
+
+  margin-left: 16px;
+}
+
+.icon {
+  &--menu {
+    width: 14px;
+
+    margin: 0 18px;
+  }
+}
